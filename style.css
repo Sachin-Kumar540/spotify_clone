@@ -1,0 +1,68 @@
+*{
+   padding: 0;
+    margin: 0;
+}
+
+
+
+.home ul li{
+    display: flex;
+    gap: 3px;
+    width: 74px;
+    list-style-type: none;
+    padding-top: 6px;
+}
+.songList ul{
+    margin: 7px;
+    padding: 0 12px;
+
+}
+.songList ul li{
+    list-style-type: decimal;
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+    padding: 12px 0;
+    border: 1px solid white;
+    margin: 12px;
+    padding: 13px;
+    border-radius: 5px;
+    justify-content: space-between  ;
+
+}
+.songList.info{
+    font-size: 13px;
+    width:344px;
+}
+.songList{
+    height: 466px;
+    overflow: auto ;
+}
+
+.songbuttons img{
+    cursor: pointer;
+}
+.timevol{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;}
+.songinfo,
+.songtime{
+    color:black;
+    padding: 0 1px;
+    width: 250px;
+}
+.volume{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    }
+
+
+.abovebar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

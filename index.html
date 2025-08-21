@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>spotifyclone</title> 
+
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+
+        <div class="leftborder bg-black">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="logo.svg" alt="spotify"></div>
+                <ul>
+                    <li><img src="home.svg" alt="Home"></li>
+                    <li><img src="search.svg" alt="Search"></li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1"> 
+                <h2>Your Library</h2>
+                <div class="songList">
+                    <ul>
+                        
+                    </ul>
+                    <ul>
+                        <li>
+                            <img class="invert" src="music.svg" alt="">
+                            <div class="info">
+                                <div> Song name</div>
+                                <div> Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Playnow</span>
+                                <img  class="invert" src="play.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="sc-bmzYkS iLJbxB">
+                        <div class="sc-jsJBEP iCKNKM"><a href="https://www.spotify.com/in-en/legal/"
+                                class="e-9960-text-link e-9960-baseline e-9960-overflow-wrap-anywhere encore-internal-color-text-subdued e-9960-text-link--standalone sc-bXCLTC ekjVst"
+                                data-encore-id="textLink" id=""><span data-encore-id="type"
+                                    class="Type__TypeElement-sc-goli3j-0 gBYjgG">Legal</span></a></div>
+                        <div class="sc-jsJBEP iCKNKM"><a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                                class="e-9960-text-link e-9960-baseline e-9960-overflow-wrap-anywhere encore-internal-color-text-subdued e-9960-text-link--standalone sc-bXCLTC ekjVst"
+                                data-encore-id="textLink" id=""><span data-encore-id="type"
+                                    class="Type__TypeElement-sc-goli3j-0 gBYjgG">Safety &amp; Privacy Center</span></a>
+                        </div>
+                        <div class="sc-jsJBEP iCKNKM"><a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                                class="e-9960-text-link e-9960-baseline e-9960-overflow-wrap-anywhere encore-internal-color-text-subdued e-9960-text-link--standalone sc-bXCLTC ekjVst"
+                                data-encore-id="textLink" id=""><span data-encore-id="type"
+                                    class="Type__TypeElement-sc-goli3j-0 gBYjgG">Privacy Policy</span></a></div>
+                        <div class="sc-jsJBEP iCKNKM"><a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                                class="e-9960-text-link e-9960-baseline e-9960-overflow-wrap-anywhere encore-internal-color-text-subdued e-9960-text-link--standalone sc-bXCLTC ekjVst"
+                                data-encore-id="textLink" id=""><span data-encore-id="type"
+                                    class="Type__TypeElement-sc-goli3j-0 gBYjgG">Cookies</span></a></div>
+                        <div class="sc-jsJBEP iCKNKM"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                                class="e-9960-text-link e-9960-baseline e-9960-overflow-wrap-anywhere encore-internal-color-text-subdued e-9960-text-link--standalone sc-bXCLTC ekjVst"
+                                data-encore-id="textLink" id=""><span data-encore-id="type"
+                                    class="Type__TypeElement-sc-goli3j-0 gBYjgG">About Ads</span></a></div>
+                        <div class="sc-jsJBEP iCKNKM"><a href="https://www.spotify.com/in-en/accessibility/"
+                                class="e-9960-text-link e-9960-baseline e-9960-overflow-wrap-anywhere encore-internal-color-text-subdued e-9960-text-link--standalone sc-bXCLTC ekjVst"
+                                data-encore-id="textLink" id=""><span data-encore-id="type"
+                                    class="Type__TypeElement-sc-goli3j-0 gBYjgG">Accessibility</span></a></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="rightborder bg-g ">
+            <div class="header ">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        class="injected-svg" data-src="https://cdn.hugeicons.com/icons/arrow-left-01-stroke-rounded.svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        class="injected-svg"
+                        data-src="https://cdn.hugeicons.com/icons/arrow-right-01-stroke-rounded.svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Signup</button>
+                    <button class="loginbtn">Log in</button>
+
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="ncs" class="card" style="position: relative;">
+                        <button class="play-btn">
+                            <!-- Solid Play Icon SVG -->
+                            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="position: absolute;">
+                                <path
+                                    d="M4 3.3v13.4c0 .5.5.8.9.5l10.2-6.7c.4-.3.4-.8 0-1.1L4.9 2.7c-.4-.3-.9 0-.9.6z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7" alt="">
+
+                        <h2>Happy Hits!</h2>
+                        <h6>Hits to boost your mood and fill you with happiness!</h6>
+                    </div>
+                    <div data-folder="cs" class="card">
+                        <button class="play-btn">
+                            <!-- Solid Play Icon SVG -->
+                            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="position: absolute;">
+                                <path
+                                    d="M4 3.3v13.4c0 .5.5.8.9.5l10.2-6.7c.4-.3.4-.8 0-1.1L4.9 2.7c-.4-.3-.9 0-.9.6z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7" alt="">
+
+                        <h2>Happy Hits!</h2>
+                        <h6>Hits to boost your mood and fill you with happiness!</h6>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div  class="seekbar">
+                        <div class="circle">
+                            
+                        </div>
+
+                    </div>
+                    <div class="abovebar">
+
+                    
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                       <img id="previous" src="previous.svg" alt="">
+                       <img id="play" src="pause.svg" alt="">
+                       <img id="next" src="next.svg" alt="">
+
+                    </div>
+                    <div class="timevol">
+                    <div class="songtime">
+
+
+                        </div> 
+                        <div class="volume">
+                            <img src="volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+ 
+</html>
